@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.topo-page {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    padding: 22px 70px;
+    background: rgb(171, 0, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.meu-horario {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: white;
+    user-select: none;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.acesso {
+
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.acesso-filho {
+    width: 10%;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    top: 100px;
+    align-items: stretch;
+    background-size: cover;
+    height: 600px;
+    background-color: white;
+    
+
+}
+
+.conteudo-meuhorario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    align-items: stretch;
+    background-size: cover;
+    height: 600px;
+    background-color: white;
+    
+
+
+}
+
+.div-cards {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.conteudo-direita {
+
+    padding: 2em;
+    background-image: url('img/canto-estudo.jpg');
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.conteudo-esquerda {
+
+    width: 100vw;
+    height: 100vh;
+    color: rgb(171, 0, 238);
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.conteudo-cadastro {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    align-items: center;
+    height: 600px;
+    background-color: white;
+
+}
+
+.combobox-cadastro {
+
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    gap: 100px;
+
+}
+
+.combobox-cad-tamanho {
+
+    width: 100px;
+}
+
+.conteudo-login {
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(171, 0, 238);
+
+}
+
+.login {
+    color: rgb(171, 0, 238);
+    padding: 5px;
+    margin: 10px;
+}
+
+.Entrar {
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.input-cad {
+    padding: 5px;
+    margin: 5px;
+    width: 150%;
+}
+
+.input-combo-hr {
+    padding: 5px;
+    margin: 5px;
+    width: 155%;
+}
+
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.form-cadastro {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 100px 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    color: #fff;
+    background-color: rgb(171, 0, 238);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.icones-horario {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+
+}
+
+footer {
+    background-color: #ffffff;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 100px;
+    
+}

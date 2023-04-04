@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Matricula</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="topo-page">
+        <a class="logo" href="index.html">HorarioAPP</a>
+        <nav class="acesso">
+            <a class="acesso-filho" href="cadastro.html">Cadastro</a>
+            <a class="acesso-filho" href="login.html">Login</a>
+        </nav>
+    </header>
+
+
+    <div class="conteudo-cadastro">
+        <form action="login.html" class="form-cadastro">
+            <h1 class="login">Novo Usuário</h1>
+
+            <input type="text" class="input-cad" id="Nome" placeholder="Nome">
+            <input type="email" class="input-cad" id="Email" placeholder="Seu email">
+            <input type="text" class="input-cad" id="Inst-ensino" placeholder="Instituição de Ensino">
+            <input type="password" class="input-cad" id="Senha" placeholder="Senha">
+            <div class="combobox-cadastro">
+                <select name="UF" class="combobox-cad-tamanho">
+                    <option value="valor1" selected>UF</option>
+                    <option value="valor2">PE</option>
+                    <option value="valor3">AL</option>
+                    <option value="valor4">PB</option>
+                    <option value="valor5">MA</option>
+                    <option value="valor6">PA</option>
+                </select>
+
+                <select name="Cidade" class="combobox-cad-tamanho">
+                    <option value="valor1" selected>Cidade</option>
+                    <option value="valor2">Paulista</option>
+                    <option value="valor3">Maceio</option>
+                    <option value="valor4">João Pessoa</option>
+                    <option value="valor5">São Luiz</option>
+                    <option value="valor6">Belem</option>
+                </select>
+            </div>
+
+            <button class="input-cad" type="submit">Cadastrar</button>
+
+        </form>
+
+
+    </div><!--Conteudo-->
+    <footer>
+        <p>&copy; HorarioApp</p>
+    </footer>
+
+
+
+</body>
+
+</html>

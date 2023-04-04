@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Matricula</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="topo-page">
+        <a class="logo" href="index.html">HorarioAPP</a>
+        <nav class="acesso">
+            <a class="acesso-filho" href="cadastro.html">Cadastro</a>
+            <a class="acesso-filho" href="login.html">Login</a>
+        </nav>
+    </header>
+
+
+    <div class="conteudo-cadastro">
+
+        <form class="form-cadastro" action="meu-horario.html">
+            <h1 class="login">Nova Disciplina</h1>
+
+            <select name="DiaSemana" class="input-combo-hr">
+                <option value="valor1" selected>Selecione dia da Semana</option>
+                <option value="valor2">Domingo</option>
+                <option value="valor3">Segunda</option>
+                <option value="valor4">Terça</option>
+                <option value="valor5">Quarta</option>
+                <option value="valor6">Quinta</option>
+                <option value="valor7">Sexta</option>
+                <option value="valor8">Sabado</option>
+            </select>
+
+            <input type="text" class="input-cad" id="Disciplina" placeholder="Nome da Disciplina">
+
+            <select name="HorasInicio" class="input-combo-hr">
+                <option value="valor1" selected>Hora de Inicio</option>
+                <option value="valor2">07:00</option>
+                <option value="valor3">08:00</option>
+                <option value="valor4">09:00</option>
+                <option value="valor5">10:00</option>
+                <option value="valor6">11:00</option>
+            </select>
+
+            <select name="HorasTermino" class="input-combo-hr">
+                <option value="valor1" selected>Hora de Termino</option>
+                <option value="valor2">11:00</option>
+                <option value="valor3">13:00</option>
+                <option value="valor4">14:00</option>
+                <option value="valor5">15:00</option>
+                <option value="valor6">16:00</option>
+            </select>
+
+            <input type="text" class="input-cad" id="Professor" placeholder="Nome do Professor">
+
+            <input type="number" class="input-cad" id="Sala" placeholder="Sala">
+
+            <button class="input-cad" type="submit">Cadastrar</button>
+        </form>
+
+
+    </div><!--conteudo-horario-->
+    <footer>
+        <p>&copy; HorarioApp</p>
+    </footer>
+
+
+</body>
+
+</html>
